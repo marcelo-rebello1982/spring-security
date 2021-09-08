@@ -62,8 +62,6 @@ public class ApplicationSecurityConfig extends WebSecurityConfigurerAdapter {
                 .logoutSuccessUrl("/login");
     }
 
-    // https://docs.spring.io/spring-security/site/docs/4.2.12.RELEASE/apidocs/org/springframework/security/config/annotation/web/configurers/LogoutConfigurer.html
-
     @Override
     @Bean
     protected UserDetailsService userDetailsService() {
@@ -97,3 +95,5 @@ public class ApplicationSecurityConfig extends WebSecurityConfigurerAdapter {
         System.out.println(TimeUnit.DAYS.toSeconds(1));
     }
 }
+
+// https://docs.spring.io/spring-security/site/docs/4.2.12.RELEASE/apidocs/org/springframework/security/config/annotation/web/configurers/LogoutConfigurer.html
