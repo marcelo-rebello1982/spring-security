@@ -1,6 +1,5 @@
 package com.security.enuns;
 
-
 public enum ApplicationUserPermission {
 
     STUDENT_READ("student:read"),
