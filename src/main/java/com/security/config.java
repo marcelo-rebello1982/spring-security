@@ -1,2 +1,4 @@
-package com.security;public class config {
+package com.security;
+
+public class config {
 }

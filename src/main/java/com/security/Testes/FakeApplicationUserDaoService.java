@@ -1,4 +1,4 @@
-package com.security.dao;
+package com.security.Testes;
 
 import com.google.common.collect.Lists;
 import com.security.auth.ApplicationUser;

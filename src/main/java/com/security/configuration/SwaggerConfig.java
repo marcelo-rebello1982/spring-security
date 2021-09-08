@@ -1,4 +1,4 @@
-package com.security.config;
+package com.security.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -32,9 +32,9 @@ public class SwaggerConfig {
     }
 
     private ApiInfo apiInfo() {
-        return new ApiInfo("API Livro-Teste", "API REST para teste IBM", "Versão 1.0", "http://www.livroteste.com.br",
-                new Contact("IBM", "http://www.livroteste.com.br", "sueliton.de.oliveira@ibm.com"), "opensource",
-                "http://www.livroteste.com.br/terms", Collections.emptyList());
+        return new ApiInfo("API SpringSecurity", "API REST Security", "Versão 1.0", "http://www.xxxx.com.br",
+                new Contact("MPRM", "http://www.xxxx.com.br", "mp.rebello.martins@gmail.com"), "opensource",
+                "http://www.xxxx.com.br/terms", Collections.emptyList());
     }
 
 }
