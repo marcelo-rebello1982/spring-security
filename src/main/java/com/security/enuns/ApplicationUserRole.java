@@ -24,6 +24,7 @@ public enum ApplicationUserRole {
     public Set<ApplicationUserPermission> getPermissions() {
         return permissions;
     }
+    
 
 
     public Set<SimpleGrantedAuthority> getGrantedAuthorities() {
